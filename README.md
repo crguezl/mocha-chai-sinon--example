@@ -4,13 +4,17 @@ See the tutorial at:
 
 * [Using Mocha JS, Chai JS and Sinon JS to Test your Frontend JavaScript Code](http://blog.codeship.com/mocha-js-chai-sinon-frontend-javascript-code-testing-tutorial/)
 
+There are three branches:
+
+      $ git branch -a
+        async         # Example of asynchronous testing
+      * master        # Simple example
+        sinon         # Example of mocking with sinon
+
+To install dependencies:
+
                         $ npm install -g mocha
                         $ mkdir vendor
                         $ mocha init vendor
-
-Include the chai browser build in your testing suite.
-
-                <script src="vendor/chai.js" type="text/javascript"></script>
-
-
-Use the chai.js file [from the root of the github project](https://github.com/chaijs/chai/blob/master/chai.js).
+                        $ npm run-script chai
+                        $ npm run-script sinon
