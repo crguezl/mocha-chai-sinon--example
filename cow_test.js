@@ -1,6 +1,18 @@
 var expect = chai.expect;
 
 describe("Cow", function() {
+  var sandbox;
+
+  beforeEach(function() {
+    sandbox = sinon.sandbox.create();
+    sandbox.stub(window.console, "log");
+    sandbox.stub(window.console, "error");
+  });
+
+  afterEach(function() {
+    sandbox.restore();
+  });
+
   describe("constructor", function() {
     it("should have a default name", function() {
       var cow = new Cow();
@@ -14,15 +26,18 @@ describe("Cow", function() {
   });
 
   describe("#greets", function() {
-    it("should throw if no target is passed in", function() {
-      expect(function() {
-        (new Cow()).greets();
-      }).to.throw(Error);
+    it("should log on error if no target is passed in", function() {
+      (new Cow()).greets();
+
+      sinon.assert.notCalled(console.log);
+      sinon.assert.calledOnce(console.error);
+      sinon.assert.calledWithExactly(console.error, "missing target");
     });
 
-    it("should greet passed target", function() {
+    it("should log passed target", function() {
       var greetings = (new Cow("Kate")).greets("Baby");
-      expect(greetings).to.equal("Kate greets Baby!");
+
+      sinon.assert.calledWithExactly(console.log, "Kate greets Baby!");
     });
   });
 });

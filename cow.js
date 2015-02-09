@@ -9,9 +9,11 @@
 
   Cow.prototype = {
     greets: function(target) {
-      if (!target)
-        throw new Error("missing target");
-      return this.name + " greets " + target + "!";
+      if (!target) {
+        console.error("missing target");
+        return false;
+      }
+      console.log(this.name + " greets " + target + "!");
     }
   };
 })(this);
