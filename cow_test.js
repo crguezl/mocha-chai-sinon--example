@@ -14,11 +14,13 @@ describe("Cow", function() {
   });
 
   describe("#greets", function() {
+    /*
     it("should throw if no target is passed in", function() {
       expect(function() {
         (new Cow()).greets();
       }).to.throw(Error);
     });
+    */
 
     it("should greet passed target", function() {
       var greetings = (new Cow("Kate")).greets("Baby");
