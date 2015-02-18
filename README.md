@@ -19,6 +19,8 @@ There are six branches:
         karma         # Example of how to use karma
         travis        # Example of how to use karma with travis
 
+[![Build Status](https://travis-ci.org/crguezl/mocha-chai-sinon--example.svg?branch=travis)](https://travis-ci.org/crguezl/mocha-chai-sinon--example)
+
 To install dependencies:
 
                         $ npm install -g mocha
