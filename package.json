@@ -1,6 +1,6 @@
 {
   "name": "mocha-chai-sinon",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "See the tutorial at: https://nicolas.perriault.net/code/2013/testing-frontend-javascript-code-using-mocha-chai-and-sinon/",
   "main": "cow.js",
   "scripts": {
@@ -12,7 +12,16 @@
     "type": "git",
     "url": "git://github.com/crguezl/mocha-chai-sinon--example.git"
   },
-  "devDependencies" : {
+  "devDependencies": {
+    "karma": "*",
+    "mocha": "*",
+    "minimax": "*",
+    "karma-mocha": "*",
+    "karma-chai": "*",
+    "karma-html2js-preprocessor": "*",
+    "karma-firefox-launcher": "*",
+    "optimist": "*",
+    "chai": "~2.0.0"
   },
   "keywords": [
     "mocha",
