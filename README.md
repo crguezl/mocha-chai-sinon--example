@@ -14,7 +14,7 @@ There are six branches:
       $ git branch -a
         async         # Example of asynchronous testing
         blanket       # Covering
-      * master        # Simple example
+        master        # Simple example
         sinon         # Example of mocking with sinon
         karma         # Example of how to use karma
         travis        # Example of how to use karma with travis
