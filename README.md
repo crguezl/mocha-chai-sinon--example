@@ -9,7 +9,7 @@ See the tutorials at:
 by Nicolas Perriault.
 
 
-There are five branches:
+There are six branches:
 
       $ git branch -a
         async         # Example of asynchronous testing
@@ -17,6 +17,7 @@ There are five branches:
       * master        # Simple example
         sinon         # Example of mocking with sinon
         karma         # Example of how to use karma
+        travis        # Example of how to use karma with travis
 
 To install dependencies:
 
