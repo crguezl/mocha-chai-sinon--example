@@ -9,13 +9,14 @@ See the tutorials at:
 by Nicolas Perriault.
 
 
-There are four branches:
+There are five branches:
 
       $ git branch -a
         async         # Example of asynchronous testing
         blanket       # Covering
       * master        # Simple example
         sinon         # Example of mocking with sinon
+        karma         # Example of how to use karma
 
 To install dependencies:
 
