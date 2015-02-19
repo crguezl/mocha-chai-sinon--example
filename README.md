@@ -1,4 +1,4 @@
-# Tutorial on Mocha at Codeship
+# Tutorials on Mocha, Blanket and Karma
 
 See the tutorials at:
 
