@@ -3,10 +3,14 @@
 See the tutorials at:
 
 * [Using Mocha JS, Chai JS and Sinon JS to Test your Frontend JavaScript Code](http://blog.codeship.com/mocha-js-chai-sinon-frontend-javascript-code-testing-tutorial/)
+by Nicolas Perriault.
 
 * [Get your Frontend JavaScript Code Covered](https://nicolas.perriault.net/code/2013/get-your-frontend-javascript-code-covered/)
-
 by Nicolas Perriault.
+
+* [Karma configuration file](http://karma-runner.github.io/0.12/config/configuration-file.html)
+
+* [Travis CI and Karma](http://karma-runner.github.io/0.12/plus/travis.html)
 
 
 There are six branches:
