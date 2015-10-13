@@ -32,3 +32,15 @@ To install dependencies:
                         $ mocha init vendor
                         $ npm run-script chai
                         $ npm run-script sinon
+
+Contents  of `.travis.yml`:
+
+                        language: node_js
+                        node_js:
+                          - "0.10"
+                        before_script:
+                          - export DISPLAY=:99.0
+                          - sh -e /etc/init.d/xvfb start
+                        branches:
+                          only:
+                            - travis
