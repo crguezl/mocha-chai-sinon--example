@@ -29,12 +29,12 @@ To install dependencies:
 
 * [blanketjs](http://blanketjs.org/)
 
-* The only file you need is [blanket.js]ahttps://raw.github.com/alex-seville/blanket/master/dist/qunit/blanket.min.js(). Download the library and reference it in your test runner.
+* The only file you need is [blanket.js](https://raw.github.com/alex-seville/blanket/master/dist/qunit/blanket.min.js). Download the library and reference it in your test runner.
 
 ```javascript
 <script src="blanket.js"></script>
 ```
-Add a `data-cover` attribute to the script reference of each file you want covered
+* Add a `data-cover` attribute to the script reference of each file you want covered
 
 ```javascript
 <script src="my-library.js" data-cover></script>
