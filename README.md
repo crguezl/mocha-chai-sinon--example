@@ -1,5 +1,6 @@
 # Tutorial on Mocha at Codeship
 
+
 See the tutorials at:
 
 * [Using Mocha JS, Chai JS and Sinon JS to Test your Frontend JavaScript Code](http://blog.codeship.com/mocha-js-chai-sinon-frontend-javascript-code-testing-tutorial/)
@@ -24,3 +25,18 @@ To install dependencies:
                         $ mocha init vendor
                         $ npm run-script chai
                         $ npm run-script sinon
+## BlanketJS
+
+* [blanketjs](http://blanketjs.org/)
+
+* The only file you need is [blanket.js]ahttps://raw.github.com/alex-seville/blanket/master/dist/qunit/blanket.min.js(). Download the library and reference it in your test runner.
+
+```javascript
+<script src="blanket.js"></script>
+```
+Add a `data-cover` attribute to the script reference of each file you want covered
+
+```javascript
+<script src="my-library.js" data-cover></script>
+```
+
