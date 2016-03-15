@@ -13,7 +13,7 @@
     "url": "git://github.com/crguezl/mocha-chai-sinon--example.git"
   },
   "devDependencies": {
-    "node-static": "~0.7.6"
+    "node-static": "*"
   },
   "keywords": [
     "mocha",
