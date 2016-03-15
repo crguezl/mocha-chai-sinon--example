@@ -20,9 +20,12 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'testk.html',
-      '*.js',
-      'vendor/*.js'
+      //'testk.html',
+      'cow.js',
+      'cow_test.js',
+      'vendor/chai.js',
+      'vendor/mocha.css',
+      'vendor/mocha.js',
     ],
 
 
@@ -35,7 +38,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-         'test.html': ['html2js']
+       //  'test.html': ['html2js']
     },
 
 
@@ -64,7 +67,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
+    browsers: ['Firefox', 'PhantomJS', 'Chrome'],
 
 
     // Continuous Integration mode

@@ -19,12 +19,15 @@
     "gulp-util": "^3.0.7",
     "karma": "*",
     "karma-chai": "*",
+    "karma-chrome-launcher": "^0.2.2",
     "karma-firefox-launcher": "*",
     "karma-html2js-preprocessor": "*",
     "karma-mocha": "*",
+    "karma-phantomjs-launcher": "^1.0.0",
     "minimax": "*",
     "mocha": "*",
-    "optimist": "*"
+    "optimist": "*",
+    "phantomjs-prebuilt": "^2.1.5"
   },
   "keywords": [
     "mocha",
