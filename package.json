@@ -14,15 +14,17 @@
     "url": "git://github.com/crguezl/mocha-chai-sinon--example.git"
   },
   "devDependencies": {
+    "chai": "~2.0.0",
+    "gulp-karma": "0.0.5",
+    "gulp-util": "^3.0.7",
     "karma": "*",
-    "mocha": "*",
-    "minimax": "*",
-    "karma-mocha": "*",
     "karma-chai": "*",
-    "karma-html2js-preprocessor": "*",
     "karma-firefox-launcher": "*",
-    "optimist": "*",
-    "chai": "~2.0.0"
+    "karma-html2js-preprocessor": "*",
+    "karma-mocha": "*",
+    "minimax": "*",
+    "mocha": "*",
+    "optimist": "*"
   },
   "keywords": [
     "mocha",
