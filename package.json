@@ -24,6 +24,7 @@
     "karma-html2js-preprocessor": "*",
     "karma-mocha": "*",
     "karma-phantomjs-launcher": "^1.0.0",
+    "karma-safari-launcher": "^0.1.1",
     "minimax": "*",
     "mocha": "*",
     "optimist": "*",
