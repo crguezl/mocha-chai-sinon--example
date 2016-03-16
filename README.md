@@ -44,3 +44,5 @@ Contents  of `.travis.yml`:
                         branches:
                           only:
                             - travis
+
+---
